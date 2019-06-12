@@ -1,0 +1,78 @@
+*{padding:0;margin:0;}
+.time{
+	max-width: 400px;
+	margin: 15px auto;
+	position: relative;
+	border:1px solid rgba(0,0,0,0.3);
+}
+.time h2{
+	text-align: center;
+	margin-top: 8px;
+}
+.time a{
+	text-decoration:none;
+	color:black;
+}
+.time a:hover{
+	color:red;
+}
+.time .a1{
+	position: absolute;
+	top: 13px;
+	left: 10px;
+}
+.time .a2{
+	position: absolute;
+	top: 13px;
+	right: 10px;
+}
+.time .week{
+	overflow: hidden;
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	border-bottom:1px solid rgba(0,0,0,0.3);
+}
+.week li{
+	list-style: none;
+	float:left;
+	width: 14.2%;
+	text-align: center;
+}
+.time .dateList{
+	width: 100%;
+	overflow: hidden;
+}
+.dateList li{
+	list-style: none;
+	float: left;
+	width: 14.2%;
+	text-align: center;
+	line-height: 30px;
+	margin: 5px 0;
+	padding: 5px 0;
+}
+.dateList .red{
+	background: orange;
+}
+.dateList .sun{
+	color:red;
+}
+.dateList .ccc{
+	color:#ccc;
+}
+
+img{
+	animation:animal 5s ease infinite normal;
+}
+@keyframes animal{
+	0%{
+		transform: translate(-200px);
+	}
+	50%{
+		/*transform: translate(2000px);*/
+	}
+	100%{
+		transform: translate(1500px);
+	}
+}
